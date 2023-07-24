@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndNames", "Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzdevums6", "Uzdevums6\Uzdevums6.csproj", "{11B24013-CE2A-4B49-9EAF-84DBFF8BC6B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex4", "ex4\ex4.csproj", "{C2D834F2-8BDA-4CD6-8F24-C867D875CD41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{11B24013-CE2A-4B49-9EAF-84DBFF8BC6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B24013-CE2A-4B49-9EAF-84DBFF8BC6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11B24013-CE2A-4B49-9EAF-84DBFF8BC6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D834F2-8BDA-4CD6-8F24-C867D875CD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D834F2-8BDA-4CD6-8F24-C867D875CD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D834F2-8BDA-4CD6-8F24-C867D875CD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D834F2-8BDA-4CD6-8F24-C867D875CD41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
