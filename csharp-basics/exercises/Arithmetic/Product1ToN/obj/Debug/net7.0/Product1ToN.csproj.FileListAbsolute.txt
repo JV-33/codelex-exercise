@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/bin/Debug/net7.0/Product1ToN
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/bin/Debug/net7.0/Product1ToN.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/bin/Debug/net7.0/Product1ToN.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/bin/Debug/net7.0/Product1ToN.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/bin/Debug/net7.0/Product1ToN.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/refint/Product1ToN.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/Product1ToN.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/Product1ToN/obj/Debug/net7.0/ref/Product1ToN.dll
