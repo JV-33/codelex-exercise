@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/bin/Debug/net7.0/CozaLozaWoza
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/bin/Debug/net7.0/CozaLozaWoza.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/bin/Debug/net7.0/CozaLozaWoza.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/bin/Debug/net7.0/CozaLozaWoza.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/bin/Debug/net7.0/CozaLozaWoza.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/refint/CozaLozaWoza.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/CozaLozaWoza.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arithmetic/CozaLozaWoza/obj/Debug/net7.0/ref/CozaLozaWoza.dll
