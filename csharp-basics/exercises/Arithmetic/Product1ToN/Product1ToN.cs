@@ -1,20 +1,19 @@
-﻿namespace Product1ToN;
+﻿using System;
 
-class Program
+namespace Product1ToN
 {
-    static void Main(string[] args)
+    class Program
     {
-        int sākums = 1;
-        
-
-        
-
-        for (int i = 1; i <= 10; i++)
+        static void Main(string[] args)
         {
-            sākums *= i;
-        }
+            int sakums = 1;
 
-        Console.WriteLine($"Skaitļu reizinājums no 1 līdz 10 ir {sākums}");
+            for (int i = 1; i <= 10; i++)
+            {
+                sakums *= i;
+            }
+
+            Console.WriteLine($"Skaitļu reizinājums no 1 līdz 10 ir {sakums}");
+        }
     }
 }
-
