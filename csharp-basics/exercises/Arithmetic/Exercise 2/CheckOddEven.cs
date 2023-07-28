@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int number = 3;
+            int number = 4;
 
             if (number % 2 == 0)
             {
