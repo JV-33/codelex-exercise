@@ -6,15 +6,34 @@ namespace CalculateArea
     {
         static void Main(string[] args)
         {
-            // Get the user's menu choice.
+            while (true)
+            {
+                switch (GetMenu())
+                {
+                    case 1:
+                        CalculateCircleArea();
+                        break;
+                    case 2:
+                        CalculateRectangleArea();
+                        break;
+                    case 3:
+                        CalculateTriangleArea();
+                        break;
+                    case 4:
+                        return;
+                    default:
+                        Console.WriteLine("Ievadīts nepareizs skaitlis. Lūdzu, ievadi skaitli no 1 līdz 4.");
+                        break;
+
+
+
+                }
+            }
         }
 
         public static int GetMenu()
         {
-            int userChoice;
-
-
-            // Display the menu.
+            
             Console.WriteLine("Geometry Calculator\n");
             Console.WriteLine("1. Calculate the Area of a Circle");
             Console.WriteLine("2. Calculate the Area of a Rectangle");
@@ -22,65 +41,101 @@ namespace CalculateArea
             Console.WriteLine("4. Quit\n");
             Console.WriteLine("Enter your choice (1-4) : ");
             var keyboard = Console.ReadKey();
-            // get input from user
 
-            // validate input
+            if (int.TryParse(Console.ReadLine(), out int userChoice))
+            {
+                return userChoice;
+            }
+            else
+            {
+                return 0;
+            }
 
-            return userChoice;
+                
         }
 
         public static void CalculateCircleArea()
         {
-            // Get input from user
-            Console.WriteLine("What is the circle's radius? ");
-            //todo
+            
+            Console.WriteLine("Kāds ir apļa rādiuss? ");
 
-
-            // Display output
-            Console.WriteLine("The circle's area is "
+            if(double.TryParse(Console.ReadLine(), out double radius))
+            {
+                try
+                {
+                    Console.WriteLine("The circle's area is "
                     + Geometry.AreaOfCircle(radius));
+                }
+
+                catch (ArgumentOutOfRangeException)
+                {
+                    Console.WriteLine("Kļūda: rādiuss nevar būt negatīvs.");
+                }
+
+                }
+                else
+                {
+                    Console.WriteLine("Kļūda: nekorekta ievade. Jāievada skaitlis.");
+                }
+
         }
+
+
+
+
+
 
         public static void CalculateRectangleArea()
         {
-            decimal length = 0;
-            decimal width = 0;
+            Console.WriteLine("Kāds ir taisnstūra garums? ");
+            if (!double.TryParse(Console.ReadLine(), out double length))
+            {
+                Console.WriteLine("Kļūda: nekorekta ievade. Jāievada skaitlis.");
+                return;
+            }
 
-            // Get input from user
+            Console.WriteLine("Kāds ir taisnstūra platums? ");
+            if (!double.TryParse(Console.ReadLine(), out double width))
+            {
+                Console.WriteLine("Kļūda: nekorekta ievade. Jāievada skaitlis.");
+                return;
+            }
 
-            // Get length
-            Console.WriteLine("Enter length? ");
-            //todo
-
-            // Get width
-            Console.WriteLine("Enter width? ");
-            //todo
-
-            // Display output
-            Console.WriteLine("The rectangle's area is "
-                    + Geometry.AreaOfTriangle(length, width));
+            try
+            {
+                Console.WriteLine("The rectangle's area is " + Geometry.AreaOfRectangle(length, width));
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("Kļūda: garums un platums nevar būt negatīvi.");
+            }
         }
 
         public static void CalculateTriangleArea()
-        {
-            decimal ground = 0;
-            decimal height = 0;
+{
+    Console.WriteLine("Kāds ir trijstūra pamats?");
+    if(!double.TryParse(Console.ReadLine(), out double ground))
+    {
+        Console.WriteLine("Kļūda: nekorekta ievade. Jāievada skaitlis.");
+        return;
+    }
 
-            // Get input from user
+    Console.WriteLine("Kāds ir trijstūra augstums?");
+    if(!double.TryParse(Console.ReadLine(), out double height))
+    {
+        Console.WriteLine("Kļūda: nekorekta ievade. Jāievada skaitlis.");
+        return;
+    }
 
-            // Get the base
-            Console.WriteLine("Enter length of the triangle's base? ");
-            //todo
-            //read key value
+    try
+    {
+        Console.WriteLine("The triangle's area is " + Geometry.AreaOfTriangle(ground, height));
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        Console.WriteLine("Kļūda: pamats un augstums nevar būt negatīvi.");
+    }
+}
 
-            // Get the height
-            Console.WriteLine("Enter triangle's height? ");
-            //todo
-            //read key value
-
-            // Display the triangle's area.
-            Console.WriteLine("The triangle's area is "
-                    + Geometry.AreaOfRectangle(ground, height));
-        }
     }
 }
