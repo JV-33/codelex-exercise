@@ -40,7 +40,7 @@ namespace CalculateArea
             Console.WriteLine("3. Calculate the Area of a Triangle");
             Console.WriteLine("4. Quit\n");
             Console.WriteLine("Enter your choice (1-4) : ");
-            var keyboard = Console.ReadKey();
+           
 
             if (int.TryParse(Console.ReadLine(), out int userChoice))
             {
