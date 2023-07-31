@@ -9,7 +9,18 @@ namespace TenBillion
         {
             Console.WriteLine("Input an integer number less than ten billion: ");
 
-            var input = Console.ReadLine();
+            int input = int.Parse(Console.ReadLine());
+            input = Math.Abs(input);
+
+            string skaitluDaudzums = input.ToString();
+            int skaitļuSkaits = skaitluDaudzums.Length;
+
+
+
+            Console.WriteLine(input);
+            Console.WriteLine(skaitļuSkaits);
+
+            Console.ReadKey();
         }
     }
 }
