@@ -39,7 +39,7 @@ class Program
         {
             Console.WriteLine("Nav atbilstoš skaitlis kādai dienai!!!");
         }
-        Console.ReadKey();
+        
 
 
         Console.WriteLine("Ievadi skaitli no 0-6 : ");

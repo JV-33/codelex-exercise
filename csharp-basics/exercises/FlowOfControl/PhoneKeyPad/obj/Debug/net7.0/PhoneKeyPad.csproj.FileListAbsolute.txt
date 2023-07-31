@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/bin/Debug/net7.0/PhoneKeyPad
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/bin/Debug/net7.0/PhoneKeyPad.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/bin/Debug/net7.0/PhoneKeyPad.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/bin/Debug/net7.0/PhoneKeyPad.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/bin/Debug/net7.0/PhoneKeyPad.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/refint/PhoneKeyPad.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/PhoneKeyPad.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/PhoneKeyPad/obj/Debug/net7.0/ref/PhoneKeyPad.dll
