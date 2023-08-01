@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/bin/Debug/net7.0/Calculator
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/bin/Debug/net7.0/Calculator.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/bin/Debug/net7.0/Calculator.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/bin/Debug/net7.0/Calculator.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/bin/Debug/net7.0/Calculator.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/refint/Calculator.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/Calculator.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Calculator/obj/Debug/net7.0/ref/Calculator.dll

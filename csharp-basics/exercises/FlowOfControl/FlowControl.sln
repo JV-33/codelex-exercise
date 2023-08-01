@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTheCentury", "GetTheCent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rock-Paper-Scissors", "Rock-Paper-Scissors\Rock-Paper-Scissors.csproj", "{70615395-FA6D-4B4C-B74A-6C0184581027}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{56E716C4-BDED-4D86-9704-B26D32B75E45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{70615395-FA6D-4B4C-B74A-6C0184581027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70615395-FA6D-4B4C-B74A-6C0184581027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70615395-FA6D-4B4C-B74A-6C0184581027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E716C4-BDED-4D86-9704-B26D32B75E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E716C4-BDED-4D86-9704-B26D32B75E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E716C4-BDED-4D86-9704-B26D32B75E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E716C4-BDED-4D86-9704-B26D32B75E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
