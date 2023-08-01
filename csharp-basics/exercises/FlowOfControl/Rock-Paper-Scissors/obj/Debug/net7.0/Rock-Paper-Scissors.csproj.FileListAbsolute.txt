@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/bin/Debug/net7.0/Rock-Paper-Scissors
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/bin/Debug/net7.0/Rock-Paper-Scissors.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/bin/Debug/net7.0/Rock-Paper-Scissors.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/bin/Debug/net7.0/Rock-Paper-Scissors.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/bin/Debug/net7.0/Rock-Paper-Scissors.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/refint/Rock-Paper-Scissors.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/Rock-Paper-Scissors.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/FlowOfControl/Rock-Paper-Scissors/obj/Debug/net7.0/ref/Rock-Paper-Scissors.dll
