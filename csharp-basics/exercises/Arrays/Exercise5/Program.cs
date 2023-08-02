@@ -4,7 +4,7 @@ namespace Exercise5
 {
     class Program
     {
-        //TODO: Write a C# program to find the index of an array element.
+        
         private static void Main(string[] args)
         {
             int[] myArray = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
@@ -28,9 +28,7 @@ namespace Exercise5
             Console.WriteLine("Index position of 29 is: " + indexOfElement29);
             Console.ReadKey();
 
-            //Expected output:
-            //Index position of 36 is: 4
-            //Index position of 29 is: 8
+           
 
         }
     }
