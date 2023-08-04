@@ -81,6 +81,10 @@ namespace TicTacToe
                 }
 
             }
+            if (veiksmigiGajieni == 9 && !speleBeigusies)
+            {
+                Console.WriteLine("Spēle ir neizšķirta.");
+            }
         }
 
         private static void InitBoard()
@@ -108,4 +112,4 @@ namespace TicTacToe
 
 
     }
-}
+} 
