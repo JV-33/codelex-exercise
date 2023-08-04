@@ -12,10 +12,10 @@ namespace Exercise_8
             var random = new Random();
             var words = new List<string>
             {
-                "Suns",
-                "Maize",
-                "Valmiera",
-                "Zieds"
+                "valrieksts",
+                "Laterna",  
+                "Kopsavilkums",
+                "Armagidons"
             };
             var allowedMisses = 5;
             var missedLetters = string.Empty;
@@ -23,14 +23,16 @@ namespace Exercise_8
             var wordForDisplay = new string('_', word.Length).ToCharArray();
             while (wordForDisplay.Contains('_') && allowedMisses > 0)
             {
-                Console.WriteLine("Guess the word.");
-                Console.WriteLine($"Word: {new string(wordForDisplay)}");
-                Console.WriteLine($"Misses: {missedLetters}");
-                Console.Write("Guess:");
+                Console.WriteLine("Uzmini vārdu.");
+                Console.WriteLine($"Vārds: {new string(wordForDisplay)}");
+                Console.WriteLine($"Kļūdas: {missedLetters}");
+                Console.Write("Minējums:");
                 var input = Console.ReadKey();
                 Console.WriteLine();
-                //todo: validate input
-                // vai burts ir.
+                char minetaisBurts = char.ToLower(input.KeyChar);
+                string mazajosBurtos = word.ToLower();
+
+                if (mazajosBurtos.Contains(minetaisBurts))
                 var regex = new Regex(pattern: "[a-zA-Z]");
                 // TODO: validate using the regex and do the game logic.
             }
