@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/bin/Debug/net7.0/Exerscise 11
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/bin/Debug/net7.0/Exerscise 11.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/bin/Debug/net7.0/Exerscise 11.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/bin/Debug/net7.0/Exerscise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/bin/Debug/net7.0/Exerscise 11.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/refint/Exerscise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/Exerscise 11.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Arrays/Exerscise 11/obj/Debug/net7.0/ref/Exerscise 11.dll

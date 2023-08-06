@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[][] skaitli = new int[][]
+            int[][] skaitli = new int[][] 
             {
                 new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15},
                 new int[] {92, 6, 73, -77, 81, -90, 99, 8, -85, 34},
@@ -14,11 +14,11 @@
 
             foreach (int[] skaitlisMasiva in skaitli)
             {
-                int[] izmainitsMasivs = JaunsMasivs(skaitlisMasiva);
+                int[] izmainitsMasivs= JaunsMasivs(skaitlisMasiva);
 
                 foreach (int i in izmainitsMasivs)
                 {
-                    Console.Write(i);
+                    Console.WriteLine(i);
                 }
             }
 
