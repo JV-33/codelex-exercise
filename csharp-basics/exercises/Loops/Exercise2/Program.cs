@@ -15,6 +15,7 @@ namespace Exercise2
             */
             for (i = 0; i < n; i++)
             {
+                Console.WriteLine(i * i);
             }
 
             Console.ReadKey();
