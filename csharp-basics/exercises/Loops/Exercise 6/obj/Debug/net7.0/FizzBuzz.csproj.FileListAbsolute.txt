@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/bin/Debug/net7.0/FizzBuzz
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/bin/Debug/net7.0/FizzBuzz.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/bin/Debug/net7.0/FizzBuzz.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/bin/Debug/net7.0/FizzBuzz.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/bin/Debug/net7.0/FizzBuzz.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/refint/FizzBuzz.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/FizzBuzz.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 6/obj/Debug/net7.0/ref/FizzBuzz.dll
