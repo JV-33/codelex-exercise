@@ -20,8 +20,6 @@ namespace LargestNumber
 
             Console.WriteLine($"The largest number is {largestNumber}");
             Console.ReadKey();
-
-          
         }
     }
 }

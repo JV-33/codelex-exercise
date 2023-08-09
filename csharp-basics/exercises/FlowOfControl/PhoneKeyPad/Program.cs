@@ -24,6 +24,7 @@ class Program
             else if (v >= 'W' && v <= 'Z') result.Append('9');
             else result.Append(v);
         }
+
         Console.WriteLine($"Iznākums {result}");
 
         Console.WriteLine("Uzraksti tekstu ko vēlies uzzināt ciparu sistēmā :");
@@ -82,11 +83,9 @@ class Program
                     break;
             }
         }
+
         Console.WriteLine("Rezultāts: " + result1.ToString());
         Console.ReadLine();
-
-
-
     }
 }
 

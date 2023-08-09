@@ -15,8 +15,6 @@ namespace TenBillion
             string skaitluDaudzums = input.ToString();
             int skaitļuSkaits = skaitluDaudzums.Length;
 
-
-
             Console.WriteLine(input);
             Console.WriteLine(skaitļuSkaits);
 

@@ -39,9 +39,7 @@ class Program
         {
             Console.WriteLine("Nav atbilstoš skaitlis kādai dienai!!!");
         }
-        
-
-
+       
         Console.WriteLine("Ievadi skaitli no 0-6 : ");
         int input1 = int.Parse(Console.ReadLine());
 
@@ -71,7 +69,6 @@ class Program
             default:
                 Console.WriteLine("Nav atbilstoš skaitlis kādai dienai!!!");
                 break;
-
         }
         Console.ReadKey();  
     }
