@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/bin/Debug/net7.0/Exercise 11
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/bin/Debug/net7.0/Exercise 11.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/bin/Debug/net7.0/Exercise 11.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/bin/Debug/net7.0/Exercise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/bin/Debug/net7.0/Exercise 11.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/refint/Exercise 11.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/Exercise 11.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Loops/Exercise 11/obj/Debug/net7.0/ref/Exercise 11.dll
