@@ -1,31 +1,35 @@
-﻿using System;
+﻿namespace Exercise_9;
 
-namespace Exercise_9
+class RollTwoDice
 {
-    class RollTwoDice
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.WriteLine("Ievadi vēlamo metamo kauliņu summu: ");
+        int ievaditaSumma = Convert.ToInt32(Console.ReadLine());
+       
+        bool kauliniVienadi = false;
+        Random random = new Random();
+
+        while (!kauliniVienadi )
         {
-            Console.Write("Desired sum: ");
-            int ievaditaSumma = Convert.ToInt32(Console.ReadLine());
+            
+            int pirmaisKaulins = random.Next(1, 7);
+            int otraisKaulins = random.Next(1, 7);
+            int kaulinuSumma = pirmaisKaulins + otraisKaulins;
 
-            Random random = new Random();
 
-            while (true)
+            if (ievaditaSumma == kaulinuSumma)
             {
-                int pirmaisKaulins = random.Next(1, 7);
-                int otraisKaulins = random.Next(1, 7);
-                int kaulinuSumma = pirmaisKaulins + otraisKaulins;
-
-                Console.WriteLine($"{pirmaisKaulins} and {otraisKaulins} = {kaulinuSumma}");
-
-                if (ievaditaSumma == kaulinuSumma)
-                {
-                    break;  // Apstādināt ciklu
-                }
+                Console.WriteLine($"{pirmaisKaulins}  + {otraisKaulins} =  {kaulinuSumma}");
+                kauliniVienadi = true;
             }
 
-            Console.ReadKey();
+            else
+            {
+                Console.WriteLine($"{pirmaisKaulins}  + {otraisKaulins} =  {kaulinuSumma}");
+            }
         }
+        Console.ReadKey();
     }
 }
+
