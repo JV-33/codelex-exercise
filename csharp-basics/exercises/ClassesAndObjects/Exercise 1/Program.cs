@@ -14,7 +14,7 @@ namespace Exercise_1
             mouse.PrintProduct();
             epson.PrintProduct();
             
-            iphone.ChangePrice(888.00);
+            iphone.ChangePrice(888.01);
             iphone.ChangeQuantity(7);
             Console.WriteLine("\nAfter updates:");
             iphone.PrintProduct();
