@@ -1,4 +1,6 @@
-﻿namespace Exercise4
+﻿using System;
+
+namespace Exercise4
 {
     class Program
     {
@@ -12,13 +14,26 @@
                 1456, 2265, 1457, 2456
             };
 
-            /*
-            fixme - check if contains number 1245 
-            for (?) {
-                ......
-                Console.WriteLine("Contains!");
+            bool containsNumber = false;
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (myArray[i] == 1245)
+                {
+                    containsNumber = true;
+                    break;
+                }
             }
-            */
+
+            if (containsNumber)
+            {
+                Console.WriteLine("Pareizi, skaitlis atrodas masīvā.");
+            }
+            else
+            {
+                Console.WriteLine("Jūsu skaitlis masīvā nav.");
+            }
+
+            Console.ReadKey();
         }
     }
 }
