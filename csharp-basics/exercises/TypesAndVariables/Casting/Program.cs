@@ -20,9 +20,9 @@ namespace Casting
             double d = 4;
             float e = 5;
 
-            
-            int sum = int.Parse(a) + b + c + (int)d + (int)e;
-            Console.WriteLine(sum);
+            //fixme - should be 15 :|
+            //int sum = a + b + c + d + e;
+            //Console.WriteLine(sum);
         }
 
         static void Second()
@@ -34,9 +34,9 @@ namespace Casting
             double d = 4.2;
             float e = 5.3f;
 
-            
-            float sum = int.Parse(a) + b + c + (float)d + e;
-            Console.WriteLine(sum);
+            //fixme - should be 15.5 :| 
+            //float sum = a + b + c + d + e;
+            //Console.WriteLine(sum);
         }
     }
 }

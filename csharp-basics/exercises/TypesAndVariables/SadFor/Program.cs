@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SadFor
+﻿namespace SadFor
 {
     class Program
     {
@@ -11,18 +9,16 @@ namespace SadFor
 
         private static void Test1()
         {
-            for (int i = 0; i < 10; i++)
+            //fixme so I would compile
+            /*
+            for (i = 0; i > 10; i++)
             {
-                if (Math.Sqrt(i) > 2.5)
+                if (Math.Sqrt(j) > 2.5)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine(j);
                 }
-
-                
             }
-            Console.ReadKey();
+            */
         }
-        
-        
     }
 }
