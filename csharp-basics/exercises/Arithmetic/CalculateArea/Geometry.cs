@@ -8,19 +8,35 @@ namespace CalculateArea
 {
     public class Geometry
     {
-        public static double AreaOfCircle(decimal radius)
+        public static double AreaOfCircle(double radius)
         {
-            throw new NotImplementedException();
+            if (radius < 0)
+            {
+                Console.WriteLine("Error: Rādius nevar būt negatīvs.");
+                throw new ArgumentOutOfRangeException(" Rādius nevar būt negatīvs!!!");
+            }
+           
+            return Math.PI * radius * radius; 
         }
 
-        public static double AreaOfRectangle(decimal length, decimal width)
+        public static double AreaOfRectangle(double length, double width)
         {
-            throw new NotImplementedException();
+            if(length< 0 || width < 0)
+            {
+                Console.WriteLine("Error: Garums un platums nevar būt negatīvi.");
+                throw new ArgumentOutOfRangeException("Garums un platums nevar būt negatīvi!!!");
+            }
+            return length * width;
         }
 
-        public static double AreaOfTriangle(decimal ground, decimal h)
+        public static double AreaOfTriangle(double ground, double h)
         {
-            throw new NotImplementedException();
+            if(ground < 0 || h < 0)
+            {
+                Console.WriteLine("Error: Pamats un augstums nevar būt negatīvi.");
+                throw new ArgumentOutOfRangeException("Pamats un augstums nevar būt negatīvi!!!");
+            }
+            return ground * h * 0.5; 
         }
     }
 }
