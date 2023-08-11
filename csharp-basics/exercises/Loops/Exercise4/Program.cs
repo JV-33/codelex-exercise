@@ -1,15 +1,31 @@
-﻿namespace Exercise4
+﻿using System;
+
+namespace Exercise4
 {
     class Program
     {
-        //TODO: print all vowels using for and foreach
+        
         static void Main(string[] args)
         {
             char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
 
-            //todo - use for
+            foreach (var item in vowels)
+            {
+                Console.Write(item + " ");
+            }
 
-            //todo - use foreach
+            Console.WriteLine();
+
+            for (int i = 0; i < vowels.Length; i++)
+            {
+                Console.WriteLine(vowels[i]);
+            }
+
+            Console.ReadKey();
+
+           
+
+            
 
         }
     }
