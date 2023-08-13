@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/bin/Debug/net7.0/Exercise 7
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/bin/Debug/net7.0/Exercise 7.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/bin/Debug/net7.0/Exercise 7.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/bin/Debug/net7.0/Exercise 7.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/bin/Debug/net7.0/Exercise 7.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/refint/Exercise 7.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/Exercise 7.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 7/obj/Debug/net7.0/ref/Exercise 7.dll
