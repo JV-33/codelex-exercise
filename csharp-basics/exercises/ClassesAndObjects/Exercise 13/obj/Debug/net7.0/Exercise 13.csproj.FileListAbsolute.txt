@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/bin/Debug/net7.0/Exercise 13
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/bin/Debug/net7.0/Exercise 13.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/bin/Debug/net7.0/Exercise 13.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/bin/Debug/net7.0/Exercise 13.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/bin/Debug/net7.0/Exercise 13.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/refint/Exercise 13.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/Exercise 13.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/ClassesAndObjects/Exercise 13/obj/Debug/net7.0/ref/Exercise 13.dll
