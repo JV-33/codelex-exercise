@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/bin/Debug/net7.0/Exercise3
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/bin/Debug/net7.0/Exercise3.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/bin/Debug/net7.0/Exercise3.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/bin/Debug/net7.0/Exercise3.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/bin/Debug/net7.0/Exercise3.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/refint/Exercise3.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/Exercise3.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Exercise3/obj/Debug/net7.0/ref/Exercise3.dll
