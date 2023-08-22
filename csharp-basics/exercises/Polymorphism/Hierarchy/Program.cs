@@ -1,4 +1,5 @@
-﻿namespace Hierarchy
+﻿using System;
+namespace Hierarchy
 {
     class Program
     {
@@ -27,7 +28,6 @@
             }
 
             Console.WriteLine("Program Ended");
-            
         }
 
         static Animal CreateAnimal(string input)
@@ -91,6 +91,5 @@
             }
             Console.ReadKey();
         }
-        
     }
 }
