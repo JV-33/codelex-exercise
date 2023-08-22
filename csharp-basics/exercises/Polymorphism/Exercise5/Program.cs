@@ -1,4 +1,4 @@
-﻿namespace Hierarchy;
+﻿namespace Exercise5;
 
 class Program
 {
