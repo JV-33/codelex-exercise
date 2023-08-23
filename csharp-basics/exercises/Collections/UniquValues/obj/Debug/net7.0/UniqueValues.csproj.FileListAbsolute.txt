@@ -1,0 +1,15 @@
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/bin/Debug/net7.0/UniqueValues
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/bin/Debug/net7.0/UniqueValues.deps.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/bin/Debug/net7.0/UniqueValues.runtimeconfig.json
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/bin/Debug/net7.0/UniqueValues.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/bin/Debug/net7.0/UniqueValues.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.csproj.AssemblyReference.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.AssemblyInfoInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.AssemblyInfo.cs
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.csproj.CoreCompileInputs.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/refint/UniqueValues.dll
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.pdb
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/UniqueValues.genruntimeconfig.cache
+/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Collections/UniquValues/obj/Debug/net7.0/ref/UniqueValues.dll
