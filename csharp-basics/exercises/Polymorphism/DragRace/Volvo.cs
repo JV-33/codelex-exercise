@@ -21,7 +21,6 @@ public class Volvo : ICar
         return _currentSpeed;
     }
 
-
     public string ShowCurrentSpeed() 
     {
         return _currentSpeed.ToString();

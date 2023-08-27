@@ -20,7 +20,6 @@ public class Volga: ICar
         return _currentSpeed;
     }
 
-
     public string ShowCurrentSpeed() 
     {
         return _currentSpeed.ToString();

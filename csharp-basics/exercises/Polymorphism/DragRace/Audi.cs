@@ -16,7 +16,6 @@ namespace DragRace
             return _currentSpeed;
         }
 
-
         public void SlowDown() 
         {
             _currentSpeed--;

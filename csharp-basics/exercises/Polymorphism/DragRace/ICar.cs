@@ -7,5 +7,4 @@ public interface ICar
     string ShowCurrentSpeed();
     int GetCurrentSpeed();
     void StartEngine();
- 
 }

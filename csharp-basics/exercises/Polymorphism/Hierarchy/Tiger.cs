@@ -4,6 +4,11 @@ namespace Hierarchy
 {
     public class Tiger : Feline
     {
+        public Tiger(string animalName, double animalWeight, string? livingRegion)
+            : base(animalName, animalWeight, livingRegion)
+        {
+        }
+
         public override void MakeSound()
         {
             Console.WriteLine("ROAAR!!!");
@@ -12,7 +17,7 @@ namespace Hierarchy
         public override void Eat(Food food)
         {
             if (food is Meat)
-                foodEaten += food.Quantity;
+                FoodEaten += food.Quantity; 
             else
                 Console.WriteLine("Tigers are not eating that type of food!");
         }

@@ -21,7 +21,6 @@ namespace DragRace
             return _currentSpeed;
         }
 
-
         public string ShowCurrentSpeed()
         {
             return _currentSpeed.ToString();

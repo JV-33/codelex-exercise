@@ -4,10 +4,16 @@ namespace Hierarchy
 {
     public abstract class Animal
     {
-        public string animalName { get; set; }
-        public string animalType { get; set; }
-        public double animalWeight { get; set; }
-        public int foodEaten { get; set; }
+        public string AnimalName { get; set; }
+        public string AnimalType { get; set; }
+        public double AnimalWeight { get; set; }
+        public int FoodEaten { get; set; }
+
+        protected Animal(string animalName, double animalWeight)
+        {
+            this.AnimalName = animalName;
+            this.AnimalWeight = animalWeight;
+        }
 
         public abstract void MakeSound();
         public abstract void Eat(Food food);
@@ -19,38 +25,13 @@ namespace Hierarchy
             switch (parts[0].ToLower())
             {
                 case "cat":
-                    return new Cat
-                    {
-                        animalType = parts[0],
-                        animalName = parts[1],
-                        animalWeight = double.Parse(parts[2]),
-                        livingRegion = parts[3],
-                        breed = parts[4]
-                    };
+                    return new Cat(parts[1], double.Parse(parts[2]), parts[3], parts[4]); 
                 case "tiger":
-                    return new Tiger
-                    {
-                        animalType = parts[0],
-                        animalName = parts[1],
-                        animalWeight = double.Parse(parts[2]),
-                        livingRegion = parts[3]
-                    };
+                    return new Tiger(parts[1], double.Parse(parts[2]), parts[3]);
                 case "mouse":
-                    return new Mouse
-                    {
-                        animalType = parts[0],
-                        animalName = parts[1],
-                        animalWeight = double.Parse(parts[2]),
-                        livingRegion = parts[3]
-                    };
+                    return new Mouse(parts[1], double.Parse(parts[2]), parts[3]);
                 case "zebra":
-                    return new Zebra
-                    {
-                        animalType = parts[0],
-                        animalName = parts[1],
-                        animalWeight = double.Parse(parts[2]),
-                        livingRegion = parts[3]
-                    };
+                    return new Zebra(parts[1], double.Parse(parts[2]), parts[3]);
                 default:
                     Console.WriteLine("Unknown animal type!");
                     return null;
