@@ -6,7 +6,7 @@ namespace Hierarchy
     {
         public string? Breed { get; set; }
 
-        public Cat(string animalName, double animalWeight, string? livingRegion, string? breed)
+        private Cat(string animalName, double animalWeight, string? livingRegion, string? breed)
             : base(animalName, animalWeight, livingRegion)
         {
             Breed = breed;
