@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{DBEE2EDD-1120-4F51-8DDA-516FA8C718E3}|Default">
+  <MonoDevelop.Ide.ItemProperties.AdApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Firm PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.VendingMachine PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MakeSounds PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DragRace PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DragRace/Bmw.cs">
+    <Files>
+      <File FileName="VendingMachine/Product.cs" />
+      <File FileName="VendingMachine/Vending Machine.cs" Line="100" Column="2" />
+      <File FileName="Exercise3/Employee.cs" Line="1" Column="1" />
+      <File FileName="Exercise3/Person.cs" Line="1" Column="1" />
+      <File FileName="Exercise3/Program.cs" Line="1" Column="1" />
+      <File FileName="Exercise3/Student.cs" Line="21" Column="1" />
+      <File FileName="Hierarchy/Cat.cs" Line="20" Column="44" />
+      <File FileName="Hierarchy/Tiger.cs" Line="1" Column="1" />
+      <File FileName="DragRace/Audi.cs" Line="14" Column="1" />
+      <File FileName="DragRace/Bmw.cs" Line="34" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Polymorphism" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Hierarchy PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Exercise3 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

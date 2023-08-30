@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{3B26FC7B-7446-4B75-B3D9-6D250D153B3E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Advert.cs">
+    <Files>
+      <File FileName="Advert.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AdApp" expanded="True">
+            <Node name="AdApp" expanded="True">
+              <Node name="Advert.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AdApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

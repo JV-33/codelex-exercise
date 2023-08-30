@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7aZcOeERoK/FbgoOtBJ1f10A/Z9k1EsDyrFRtCVwKFhcKWSSdRGMGo1yNITz3hdVCfFG7gfEa8/QnRr2KnlYDw==",
+  "success": true,
+  "projectFilePath": "/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Polymorphism/Persons/Persons.csproj",
+  "expectedPackageFiles": [
+    "/Users/JV/.nuget/packages/microsoft.netcore.app/2.2.0/microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/microsoft.netcore.dotnetapphost/2.2.0/microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.2.0/microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/microsoft.netcore.dotnethostresolver/2.2.0/microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/microsoft.netcore.platforms/2.2.0/microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/microsoft.netcore.targets/2.0.0/microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "/Users/JV/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
