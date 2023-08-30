@@ -4,17 +4,17 @@ namespace Exercise3
 {
     public class Student : Person
     {
-        private double Gpa;
+        private double _gpa;
 
         public Student(double gpa)
         {
-            Gpa = gpa;
+            _gpa = gpa;
         }
 
         public override void Display()
         {
             base.Display();
-            Console.WriteLine($"Nav ne jausmas, kas ir : {Gpa}");
+            Console.WriteLine($"Nav ne jausmas, kas ir : {_gpa}");
         }
     }
 }
