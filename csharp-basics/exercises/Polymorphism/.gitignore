@@ -1,10 +1,8 @@
-﻿
+
 # Ignorē kompilācijas iznākumu direktorijas
 bin/
 obj/
 
 # macOS specifiskie faili
 .DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
+
