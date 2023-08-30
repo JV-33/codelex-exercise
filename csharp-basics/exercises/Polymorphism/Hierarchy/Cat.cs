@@ -9,7 +9,7 @@ namespace Hierarchy
         public Cat(string animalName, double animalWeight, string? livingRegion, string? breed)
             : base(animalName, animalWeight, livingRegion)
         {
-            this.Breed = breed;
+            Breed = breed;
         }
 
         public override void MakeSound()
@@ -20,7 +20,7 @@ namespace Hierarchy
         public override void Eat(Food food)
         {
             Console.WriteLine("omes desu");
-            this.FoodEaten += food.Quantity; 
+            FoodEaten += food.Quantity; 
         }
     }
 }
