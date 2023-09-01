@@ -2,7 +2,7 @@
 {
     public class ScooterService : IScooterService
     {
-        private List<Scooter> _scooters;
+        private readonly List<Scooter> _scooters;
 
         public ScooterService()
         {
@@ -11,19 +11,36 @@
 
         public void AddScooter(string id, decimal pricePerMinute)
         {
+            if (_scooters.Any(s => s.Id == id))
+            {
+                throw new DuplicateScooterException();
+            }
+
             var scooter = new Scooter(id, pricePerMinute);
             _scooters.Add(scooter);
+
         }
 
         public Scooter GetScooterById(string scooterId)
         {
-            return _scooters.FirstOrDefault(s => s.Id == scooterId);
+            var scooter = _scooters.FirstOrDefault(s => s.Id == scooterId);
+            if (scooter == null)
+            {
+                throw new ScooterNotFoundException(scooterId);
+            }
+            return scooter;
         }
+
 
         public IList<Scooter> GetScooters()
         {
+            if (!_scooters.Any())
+            {
+                throw new NoScootersAvailableException();
+            }
             return _scooters;
         }
+
 
         public void RemoveScooter(string id)
         {
@@ -34,8 +51,9 @@
             }
             else
             {
-                throw new Exception($"Scooter with ID {id} not found.");
+                throw new ScooterNotFoundException(id);
             }
         }
+
     }
 }

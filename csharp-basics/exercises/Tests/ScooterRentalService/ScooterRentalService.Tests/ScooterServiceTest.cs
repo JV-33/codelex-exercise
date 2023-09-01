@@ -4,7 +4,7 @@
     public class ScooterServiceTests
     {
         [TestMethod]
-        public void AddScooter_AddsScooterCorrectly()
+        public void GivenValidScooterIdAndPrice_WhenAddScooter_ThenScooterIsAdded()
         {
             var service = new ScooterService();
             string testScooterId = "testId";
@@ -19,7 +19,7 @@
         }
 
          [TestMethod]
-        public void GetScooterById_ReturnsCorrectScooter()
+        public void GivenValidScooterId_WhenGetScooterById_ThenReturnsCorrectScooter()
         {
             var service = new ScooterService();
             string testScooterId = "testId2";
@@ -34,7 +34,7 @@
         }
 
         [TestMethod]
-        public void GetScooters_ReturnsAllScooters()
+        public void WhenGetScooters_ThenReturnsAllScooters()
         {
             var service = new ScooterService();
             service.AddScooter("testId3", 1.0m);
@@ -48,7 +48,7 @@
         }
 
         [TestMethod]
-        public void RemoveScooter_RemovesScooterCorrectly()
+        public void GivenValidScooterId_WhenRemoveScooter_ThenScooterIsRemoved()
         {
             var service = new ScooterService();
             string testScooterId = "testId5";
@@ -56,18 +56,23 @@
 
             service.RemoveScooter(testScooterId);
 
-            var removedScooter = service.GetScooterById(testScooterId);
-            Assert.IsNull(removedScooter);
+            try
+            {
+                var removedScooter = service.GetScooterById(testScooterId);
+                Assert.IsNull(removedScooter); 
+            }
+            catch (ScooterNotFoundException)
+            {
+            }
         }
 
+
         [TestMethod]
-        [ExpectedException(typeof(Exception))]
-        public void RemoveScooter_ThrowsExceptionForNonExistingScooter()
+        [ExpectedException(typeof(ScooterNotFoundException))]
+        public void GivenNonExistingScooterId_WhenRemoveScooter_ThenThrowsException()
         {
             var service = new ScooterService();
             string testScooterId = "nonexistentId";
-
-
             service.RemoveScooter(testScooterId);
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace ScooterRentalService
+﻿using ScooterRentalService.Tests;
+
+namespace ScooterRentalService
 {
     [TestClass]
     public class RentalCompanyTests
@@ -6,10 +8,11 @@
         private const string TestScooterId = "testId";
 
         [TestMethod]
-        public void StartRent_ChangesScooterStatusToRented()
+        public void GivenScooter_WhenStartRent_ThenScooterStatusIsRented()
         {
             var scooterService = new ScooterService();
-            var rentalCompany = new RentalCompany(scooterService, "TestCompany");
+            var timeProvider = new SimpleTimeProvider();
+            var rentalCompany = new RentalCompany(scooterService, timeProvider, "TestCompany");
             scooterService.AddScooter(TestScooterId, 1.0m);
 
             rentalCompany.StartRent(TestScooterId);
@@ -19,39 +22,36 @@
         }
 
         [TestMethod]
-        public void EndRent_ReturnsCorrectAmount()
+        public void GivenRentedScooter_WhenEndRent_ThenScooterStatusIsNotRented()
         {
             var scooterService = new ScooterService();
-            var rentalCompany = new RentalCompany(scooterService, "TestCompany");
+            var timeProvider = new SimpleTimeProvider();
+            var rentalCompany = new RentalCompany(scooterService, timeProvider, "TestCompany");
             scooterService.AddScooter(TestScooterId, 1.0m);
+
             rentalCompany.StartRent(TestScooterId);
+            rentalCompany.EndRent(TestScooterId);
 
-            Thread.Sleep(TimeSpan.FromMinutes(10));
-
-            decimal amount = rentalCompany.EndRent(TestScooterId);
-
-            Assert.AreEqual(10.0m, amount);
+            var scooter = scooterService.GetScooterById(TestScooterId);
+            Assert.IsFalse(scooter.IsRented);
         }
 
         [TestMethod]
-        public void CalculateIncome_ReturnsCorrectAmount()
+        public void GivenRentedAndReturnedScooter_WhenCalculateIncome_ThenReturnsCorrectIncome()
         {
             var scooterService = new ScooterService();
-            var rentalCompany = new RentalCompany(scooterService, "TestCompany");
+            var mockTimeProvider = new MockTimeProvider { Now = DateTime.Now };
+            var rentalCompany = new RentalCompany(scooterService, mockTimeProvider, "TestCompany");
+            scooterService.AddScooter(TestScooterId, 1.0m);
 
-            scooterService.AddScooter("scooter1", 1.0m);
-            rentalCompany.StartRent("scooter1");
-            Thread.Sleep(TimeSpan.FromMinutes(10));
-            rentalCompany.EndRent("scooter1");
+            rentalCompany.StartRent(TestScooterId);
 
-            scooterService.AddScooter("scooter2", 0.5m);
-            rentalCompany.StartRent("scooter2");
-            Thread.Sleep(TimeSpan.FromMinutes(20));
-            rentalCompany.EndRent("scooter2");
+            mockTimeProvider.Now = mockTimeProvider.Now.AddMinutes(1);
 
-            decimal totalIncome = rentalCompany.CalculateIncome(null, true);
+            rentalCompany.EndRent(TestScooterId);
 
-            Assert.AreEqual(20.0m, totalIncome);
+            var income = rentalCompany.CalculateIncome(null, true);
+            Assert.AreEqual(1.0m, income);
         }
     }
 }
