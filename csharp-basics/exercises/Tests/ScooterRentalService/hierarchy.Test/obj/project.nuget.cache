@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZRGDDzOrhTEafC/Xo3sL41FTsBeQ6fsdp2+ZUk0oVbRZkwawQcDA+GkfMBNqUHTxKmoNaIPYK2EDVAYLYy24g==",
+  "dgSpecHash": "cbGUCLTo/QVtkpuHtMEGqXB3DbZ4AY6wi+WqPm/hiMXfB1m8VB5wfrzwWpqqCEQ5tzY6aUgifylHjUomb40g1g==",
   "success": true,
-  "projectFilePath": "/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Tests/ScooterRentalService/hierarchy.Test/hierarchy.Test.csproj",
+  "projectFilePath": "/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Tests/ScooterRentalService/hierarchy.Test/Hierarchy.Test.csproj",
   "expectedPackageFiles": [
     "/Users/JV/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/Users/JV/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
