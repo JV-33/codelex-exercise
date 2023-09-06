@@ -1,17 +1,18 @@
-﻿using Hierarchy;
-
-public class TestAnimal : Animal
+﻿namespace Hierarchy.Test
 {
-    public TestAnimal(string name, string type, double weight) 
-        : base(name, type, weight) { }
+	public class TestDummyAnimal : Animal
+	{
+        public TestDummyAnimal(string name, string type, double weight)
+            : base(name, type, weight) { }
 
-    public override void MakeSound() 
-    {
-        // Implementation for test
-    }
+        public override void MakeSound()
+        {
+        }
 
-    public override void Eat(Food food)
-    {
-        // Implementation for test
+        public override void Eat(Food food)
+        {
+        }
+
     }
 }
+

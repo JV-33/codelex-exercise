@@ -1,5 +1,5 @@
 ﻿using Hierarchy;
-
+namespace Hierarchy.Test;
 [TestClass]
 public class ZebraTests
 {

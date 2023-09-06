@@ -1,4 +1,5 @@
 ﻿using System;
+using Hierarchy.Exeption;
 
 namespace Hierarchy
 {
@@ -11,7 +12,7 @@ namespace Hierarchy
 
         public int Quantity { get; set; }
 
-        public static Food? CreateFood(string input)
+        public static Food CreateFood(string input)
         {
             string[] parts = input.Split(' ');
 
@@ -23,8 +24,7 @@ namespace Hierarchy
                     return new Vegetable(int.Parse(parts[1]));
 
                 default:
-                    Console.WriteLine("Unknown food type!");
-                    return null;
+                    throw new UnknownFoodException();
             }
         }
     }

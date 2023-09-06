@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YfYR5IVwhVja5u/9KleVpNP6V3rx4cKfz0041CW2XXF+wnMhn8ZocR1tB60ceiKLxRQJiVh51qrKidnX2mQYdg==",
+  "dgSpecHash": "J8NQt0T0fEcdYKM9WkF8Cecg1+mTXk4+4B/3jNreqmztTXX1whsH0NGUpvrVuhzikbuHvuJoOCvKQD2eR/ZdIQ==",
   "success": true,
   "projectFilePath": "/Users/JV/Desktop/CODOLEX/MD/codelex-exercise/csharp-basics/exercises/Tests/ScooterRentalService/Hierarchy/Hierarchy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/JV/.nuget/packages/coverlet.msbuild/6.0.0/coverlet.msbuild.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

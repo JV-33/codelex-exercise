@@ -1,7 +1,6 @@
-﻿using System.IO;
-using Hierarchy;
+﻿using Hierarchy;
 
-namespace hierarchy.Test
+namespace Hierarchy.Test
 {
 	public class TigerTest
 	{
@@ -44,4 +43,3 @@ namespace hierarchy.Test
         }
     }
 }
-

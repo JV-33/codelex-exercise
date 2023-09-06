@@ -1,4 +1,7 @@
 ﻿using Hierarchy;
+using Hierarchy.Exeption;
+using System.Globalization;
+
 
 public abstract class Animal
 {
@@ -19,6 +22,14 @@ public abstract class Animal
 
     public override string ToString()
     {
-        return $"{GetType().Name}[{AnimalName}, {AnimalType}, {AnimalWeight.ToString("F2")}, {FoodEaten}]";
+        try
+        {
+            return $"{GetType().Name}[{AnimalName}, {AnimalType}, {AnimalWeight.ToString("F2", CultureInfo.InvariantCulture)}, {FoodEaten}]";
+        }
+        catch (Exception ex)
+        {
+            throw new AnimalToStringException();
+        }
     }
+
 }

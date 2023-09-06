@@ -1,5 +1,4 @@
-﻿using Hierarchy;
-namespace Hierarchy.Test
+﻿namespace Hierarchy.Test
 {
 	public class MouseTest
 	{
@@ -15,7 +14,5 @@ namespace Hierarchy.Test
         var expected = "pee pee pee" + Environment.NewLine;
         Assert.AreEqual(expected, stringWriter.ToString());
     }
-
 	}
 }
-

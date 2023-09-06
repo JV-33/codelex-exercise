@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Hierarchy.Exeption;
 
 namespace Hierarchy
 {
@@ -10,11 +10,19 @@ namespace Hierarchy
         }
         public override void MakeSound()
         {
+            if (false)
+            {
+                throw new IncorrectOutputException();
+            }
             Console.WriteLine("pee pee pee");
         }
 
         public override void Eat(Food food)
         {
+            if (food == null)
+            {
+                throw new IncorrectFoodException();
+            }
             if (food is Vegetable)
             {
                 FoodEaten += food.Quantity;

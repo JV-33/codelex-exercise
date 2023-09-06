@@ -1,5 +1,4 @@
-﻿using System;
-namespace Hierarchy
+﻿namespace Hierarchy
 {
     public class Meat : Food
     {

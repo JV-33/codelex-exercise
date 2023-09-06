@@ -1,6 +1,4 @@
-﻿using Hierarchy;
-
-namespace hierarchy.Test
+﻿namespace Hierarchy.Test
 {
     [TestClass]
     public class CatTest
@@ -9,7 +7,7 @@ namespace hierarchy.Test
         public void TestMakeSound()
         {
             var cat = new Cat("Muris", 5.5, "Brown", "Siamese");
-            var expectedOutput = "mjau mjau maju " + Environment.NewLine;
+            var expectedOutput = "mjau mjau maju" + Environment.NewLine;
             string actualOutput;
 
             using (StringWriter sw = new StringWriter())
@@ -44,6 +42,5 @@ namespace hierarchy.Test
             Assert.AreEqual(expectedOutput, actualOutput); 
             Assert.AreEqual(expectedFoodEatenAfterEating, cat.FoodEaten);
         }
-
     }
 }

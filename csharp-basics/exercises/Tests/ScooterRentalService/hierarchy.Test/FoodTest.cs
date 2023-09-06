@@ -1,4 +1,6 @@
-﻿namespace Hierarchy;
+﻿using Hierarchy.Exeption;
+
+namespace Hierarchy.Test;
 
 [TestClass]
 public class FoodTests
@@ -27,5 +29,30 @@ public class FoodTests
         Assert.AreEqual(3, food.Quantity);
     }
 
-    // Šeit var pievienot vairāk testu, piemēram, testējot nezināmus pārtikas tipus vai nepareizi formatētu ievadi.
+    [TestMethod]
+    [ExpectedException(typeof(UnknownFoodException))]
+    public void CreateFood_WithUnknownInput_ThrowsUnknownFoodException()
+    {
+        string input = "Fruit 5";
+
+        Food.CreateFood(input);
+    }
+
+    [TestMethod]
+    [ExpectedException(typeof(FormatException))]
+    public void CreateFood_WithInvalidQuantity_ThrowsFormatException()
+    {
+        string input = "Meat Five";
+
+        Food.CreateFood(input);
+    }
+
+    [TestMethod]
+    [ExpectedException(typeof(IndexOutOfRangeException))]
+    public void CreateFood_WithIncompleteInput_ThrowsIndexOutOfRangeException()
+    {
+        string input = "Meat";
+
+        Food.CreateFood(input);
+    }
 }

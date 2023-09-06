@@ -50,27 +50,32 @@
             if (string.IsNullOrWhiteSpace(name) || count < 0)
             {
                 Console.WriteLine($"Failed to add product {name}: Invalid name or count.");
-
                 return false;
             }
-                
 
             var existingProduct = _products.FirstOrDefault(p => p.Name == name);
 
             if (!existingProduct.Equals(default(Product)))
+
             {
                 existingProduct.Price = price;
                 existingProduct.Available += count;
-
             }
             else
             {
-                existingProduct.Available += count;
+                existingProduct = new Product
+                {
+                    Name = name,
+                    Price = price,
+                    Available = count
+                };
 
+                _products.Add(existingProduct);
             }
 
             return true;
         }
+
 
         public Money InsertCoin(Money amount)
         {
@@ -122,6 +127,11 @@
             _products[productNumber] = product; 
 
             return true;
+        }
+
+        public object GetProduct()
+        {
+            return _products.ToList();
         }
     }
 }

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "hierarchy.Test/1.0.0": {
+      "Hierarchy.Test/1.0.0": {
         "dependencies": {
           "Hierarchy": "1.0.0",
           "MSTest.TestAdapter": "2.2.10",
@@ -16,7 +16,7 @@
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
-          "hierarchy.Test.dll": {}
+          "Hierarchy.Test.dll": {}
         }
       },
       "coverlet.collector/3.2.0": {},
@@ -447,7 +447,7 @@
     }
   },
   "libraries": {
-    "hierarchy.Test/1.0.0": {
+    "Hierarchy.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
