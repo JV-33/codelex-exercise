@@ -1,5 +1,4 @@
-﻿using System;
-using Hierarchy.Exeption;
+﻿using Hierarchy.Exeption;
 
 namespace Hierarchy
 {

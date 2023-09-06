@@ -32,7 +32,6 @@ namespace VendingMachineTests
             Assert.IsTrue(vendingMachine.HasProducts, "Expected vending machine to have products");
         }
 
-
         [TestMethod]
         public void InsertCoin_ValidCoin_ShouldUpdateAmount()
         {
@@ -47,22 +46,19 @@ namespace VendingMachineTests
         }
 
         [TestMethod]
-        public void InsertCoin_InvalidCoin_ShouldNotUpdateAmount()
+        [ExpectedException(typeof(VendingMachine.Exeption.InvalidCoinException))]
+        public void InsertCoin_InvalidCoin_ShouldThrowInvalidCoinException()
         {
             var vendingMachine = new Vending_Machine("TestManufacturer");
-            var initialAmount = vendingMachine.Amount;
-            var coin = new Money { Euros = 0, Cents = 99 };  // Invalid coin
+            var coin = new Money { Euros = 0, Cents = 99 };
 
-            var result = vendingMachine.InsertCoin(coin);
-
-            Assert.AreEqual(initialAmount.Euros, vendingMachine.Amount.Euros);
-            Assert.AreEqual(initialAmount.Cents, vendingMachine.Amount.Cents);
+            vendingMachine.InsertCoin(coin);
         }
+
 
         [TestMethod]
         public void UpdateProduct_WithValidData_UpdatesProductSuccessfully()
         {
-            // Arrange
             var vendingMachine = new Vending_Machine("TestManufacturer");
             var initialProduct = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
             vendingMachine.AddProduct(initialProduct.Name, initialProduct.Price, initialProduct.Available);
@@ -71,10 +67,8 @@ namespace VendingMachineTests
             var newPrice = new Money { Euros = 2, Cents = 0 };
             var newAmount = 10;
 
-            // Act
             var result = vendingMachine.UpdateProduct(0, newName, newPrice, newAmount);
 
-            // Assert
             Assert.IsTrue(result, "Expected product to be updated successfully");
             var updatedProducts = (List<Product>)vendingMachine.GetProduct();
             var updatedProduct = updatedProducts[0];
@@ -83,15 +77,85 @@ namespace VendingMachineTests
             Assert.AreEqual(newAmount, updatedProduct.Available);
         }
 
-        // Add more test methods to cover other scenarios:
-        // - Invalid product number
-        // - Update only name, only price, only amount
-        // - Other edge cases you can think of
+        [TestMethod]
+        [ExpectedException(typeof(VendingMachine.Exeption.InvalidProductNumberException))]
+        public void UpdateProduct_InvalidProductNumber_ShouldThrowException()
+        {
+            var vendingMachine = new Vending_Machine("TestManufacturer");
+            var result = vendingMachine.UpdateProduct(-1, "NewName", new Money { Euros = 2, Cents = 0 }, 10);
+        }
+
+
+        [TestMethod]
+        public void UpdateProduct_OnlyName_UpdatesSuccessfully()
+        {
+            var vendingMachine = new Vending_Machine("TestManufacturer");
+            var initialProduct = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
+            vendingMachine.AddProduct(initialProduct.Name, initialProduct.Price, initialProduct.Available);
+
+            var newName = "Coke";
+            var result = vendingMachine.UpdateProduct(0, newName, null, 5);
+
+            var updatedProducts = (List<Product>)vendingMachine.GetProduct();
+            var updatedProduct = updatedProducts[0];
+            Assert.IsTrue(result);
+            Assert.AreEqual(newName, updatedProduct.Name);
+            Assert.AreEqual(initialProduct.Price, updatedProduct.Price);
+            Assert.AreEqual(initialProduct.Available, updatedProduct.Available);
+        }
+
+        [TestMethod]
+        public void UpdateProduct_OnlyPrice_UpdatesSuccessfully()
+        {
+            var vendingMachine = new Vending_Machine("TestManufacturer");
+            var initialProduct = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
+            vendingMachine.AddProduct(initialProduct.Name, initialProduct.Price, initialProduct.Available);
+
+            var newPrice = new Money { Euros = 2, Cents = 0 };
+            var result = vendingMachine.UpdateProduct(0, "Soda", newPrice, 5);
+
+            var updatedProducts = (List<Product>)vendingMachine.GetProduct();
+            var updatedProduct = updatedProducts[0];
+            Assert.IsTrue(result);
+            Assert.AreEqual(initialProduct.Name, updatedProduct.Name);
+            Assert.AreEqual(newPrice, updatedProduct.Price);
+            Assert.AreEqual(initialProduct.Available, updatedProduct.Available);
+        }
+
+        [TestMethod]
+        public void UpdateProduct_OnlyAmount_UpdatesSuccessfully()
+        {
+            var vendingMachine = new Vending_Machine("TestManufacturer");
+            var initialProduct = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
+            vendingMachine.AddProduct(initialProduct.Name, initialProduct.Price, initialProduct.Available);
+
+            var newAmount = 10;
+            var result = vendingMachine.UpdateProduct(0, "Soda", null, newAmount);
+
+            var updatedProducts = (List<Product>)vendingMachine.GetProduct();
+            var updatedProduct = updatedProducts[0];
+            Assert.IsTrue(result);
+            Assert.AreEqual(initialProduct.Name, updatedProduct.Name);
+            Assert.AreEqual(initialProduct.Price, updatedProduct.Price);
+            Assert.AreEqual(newAmount, updatedProduct.Available);
+        }
+
+        [TestMethod]
+        public void AddProduct_SameNameDifferentCase_TreatsAsDifferentProducts()
+        {
+            var vendingMachine = new Vending_Machine("TestManufacturer");
+            var initialProduct = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
+            vendingMachine.AddProduct(initialProduct.Name, initialProduct.Price, initialProduct.Available);
+            vendingMachine.AddProduct("soda", new Money { Euros = 2, Cents = 0 }, 7);
+
+            var products = vendingMachine.GetProduct() as List<Product>;
+
+            Assert.AreEqual(2, products.Count, "Expected two different products");
+        }
 
         [TestMethod]
         public void GetProduct_ReturnsCorrectListOfProducts()
         {
-            // Arrange
             var vendingMachine = new Vending_Machine("TestManufacturer");
             var product1 = new Product { Name = "Soda", Price = new Money { Euros = 1, Cents = 0 }, Available = 5 };
             var product2 = new Product { Name = "Water", Price = new Money { Euros = 0, Cents = 50 }, Available = 10 };
@@ -99,18 +163,12 @@ namespace VendingMachineTests
             vendingMachine.AddProduct(product1.Name, product1.Price, product1.Available);
             vendingMachine.AddProduct(product2.Name, product2.Price, product2.Available);
 
-            // Act
             var products = vendingMachine.GetProduct() as List<Product>;
             Assert.IsNotNull(products, "Expected a valid list of products");
 
-            // Assert
-            Assert.AreEqual(2, products.Count);  // Check if there are 2 products
-            Assert.AreEqual(product1.Name, products[0].Name);  // Check if the first product is correct
-            Assert.AreEqual(product2.Name, products[1].Name);  // Check if the second product is correct
+            Assert.AreEqual(2, products.Count);
+            Assert.AreEqual(product1.Name, products[0].Name);
+            Assert.AreEqual(product2.Name, products[1].Name);
         }
-
-
     }
-
-
 }

@@ -1,4 +1,6 @@
-﻿namespace VendingMachine
+﻿using VendingMachine.Exeption;
+
+namespace VendingMachine
 {
 	public class Vending_Machine : IVendingMachine
 	{
@@ -7,7 +9,6 @@
         private List<Product> _products = new List<Product>();
         private Money _currentAmount;
         private readonly List<decimal> validCoins = new List<decimal> { 0.10m, 0.20m, 0.50m, 1.00m, 2.00m };
-
 
         private Money CreateMoneyFromDecimal(decimal amount)
         {
@@ -27,13 +28,11 @@
             };
         }
 
-
         public Vending_Machine(string manufacturer)
         {
             _manufacturer = manufacturer;
             _currentAmount = CreateMoneyFromDecimal(0.00m);
         }
-
 
         public string Manufacturer => _manufacturer;
 
@@ -47,17 +46,30 @@
         {
             Console.WriteLine($"Adding product {name} with count {count}...");
 
-            if (string.IsNullOrWhiteSpace(name) || count < 0)
+            if (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine($"Failed to add product {name}: Invalid name or count.");
-                return false;
+                throw new InvalidProductNameException("Product name cannot be empty or whitespace.");
+            }
+
+            if (count < 0)
+            {
+                throw new InvalidProductCountException("Product count cannot be negative.");
+            }
+
+            if (price.Euros < 0 || price.Cents < 0)
+            {
+                throw new NegativeProductPriceException("Product price cannot be negative.");
             }
 
             var existingProduct = _products.FirstOrDefault(p => p.Name == name);
 
             if (!existingProduct.Equals(default(Product)))
-
             {
+                if (existingProduct.Available + count > 10000)
+                {
+                    throw new ProductAvailabilityExceededException("The product count exceeds the allowed limit.");
+                }
+
                 existingProduct.Price = price;
                 existingProduct.Available += count;
             }
@@ -70,12 +82,18 @@
                     Available = count
                 };
 
-                _products.Add(existingProduct);
+                try
+                {
+                    _products.Add(existingProduct);
+                }
+                catch
+                {
+                    throw new ProductAdditionFailedException("Failed to add the product to the collection.");
+                }
             }
 
             return true;
         }
-
 
         public Money InsertCoin(Money amount)
         {
@@ -83,7 +101,7 @@
 
             if (!validCoins.Contains(insertedAmount))
             {
-                return amount; 
+                throw new InvalidCoinException($"The coin of {amount.Euros}.{amount.Cents} is not valid.");
             }
 
             _currentAmount.Euros += amount.Euros;
@@ -95,11 +113,17 @@
                 _currentAmount.Cents %= 100;
             }
 
-            return CreateMoneyFromDecimal(0.00m); 
+            return CreateMoneyFromDecimal(0.00m);
         }
+
 
         public Money ReturnMoney()
         {
+            if (_currentAmount.Euros < 0 || _currentAmount.Cents < 0)
+            {
+                throw new NegativeValueException("Current amount has negative values.");
+            }
+
             var returnedAmount = _currentAmount;
             _currentAmount = CreateMoneyFromDecimal(0.00m);
             return returnedAmount;
@@ -107,16 +131,40 @@
 
         public bool UpdateProduct(int productNumber, string name, Money? price, int amount)
         {
+            const int MAX_STOCK_LIMIT = 100; // piemēra vērtība, varētu būt jebkāda cita.
+
             if (productNumber < 0 || productNumber >= _products.Count)
             {
-                return false; 
+                throw new InvalidProductNumberException("Provided product number is out of range.");
+            }
+
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentNullException(nameof(name), "Product name cannot be null or empty.");
+            }
+
+            if (price.HasValue && (price.Value.Euros < 0 || price.Value.Cents < 0))
+            {
+                throw new NegativeProductPriceException("Product price cannot be negative.");
+            }
+
+            if (price.HasValue && (price.Value.Cents > 99))
+            {
+                throw new InvalidCentsValueException("Cents cannot be more than 99.");
+            }
+
+            if (amount < 0)
+            {
+                throw new ArgumentException("Product amount cannot be negative.");
+            }
+
+            if (amount > MAX_STOCK_LIMIT)
+            {
+                throw new ExcessiveStockException($"Product amount cannot exceed {MAX_STOCK_LIMIT}.");
             }
 
             var product = _products[productNumber];
-            if (!string.IsNullOrEmpty(name))
-            {
-                product.Name = name;
-            }
+            product.Name = name;
 
             if (price.HasValue)
             {
@@ -124,10 +172,12 @@
             }
 
             product.Available = amount;
-            _products[productNumber] = product; 
+            _products[productNumber] = product;
 
             return true;
         }
+
+
 
         public object GetProduct()
         {
@@ -135,4 +185,3 @@
         }
     }
 }
-

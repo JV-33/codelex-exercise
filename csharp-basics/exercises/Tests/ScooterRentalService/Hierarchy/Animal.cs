@@ -2,7 +2,6 @@
 using Hierarchy.Exeption;
 using System.Globalization;
 
-
 public abstract class Animal
 {
     public string AnimalName { get; }
@@ -26,10 +25,9 @@ public abstract class Animal
         {
             return $"{GetType().Name}[{AnimalName}, {AnimalType}, {AnimalWeight.ToString("F2", CultureInfo.InvariantCulture)}, {FoodEaten}]";
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             throw new AnimalToStringException();
         }
     }
-
 }
