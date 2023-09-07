@@ -1,0 +1,10 @@
+﻿using System;
+namespace Hierarchy
+{
+	public class Vegetable : Food
+	{
+		public Vegetable()
+		{
+		}
+	}
+}
