@@ -12,6 +12,7 @@
 
 /**/.vs/*
 /**/packages/*
+
 /.DS_Store
 */**/.DS_Store
 /**/.DS_Store
@@ -20,3 +21,4 @@
 /**/bin/*
 /**/obj/*
 /**/.DS_Store
+
