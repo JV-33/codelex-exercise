@@ -116,7 +116,6 @@ namespace VendingMachine
             return CreateMoneyFromDecimal(0.00m);
         }
 
-
         public Money ReturnMoney()
         {
             if (_currentAmount.Euros < 0 || _currentAmount.Cents < 0)
@@ -131,7 +130,7 @@ namespace VendingMachine
 
         public bool UpdateProduct(int productNumber, string name, Money? price, int amount)
         {
-            const int MAX_STOCK_LIMIT = 100; // piemēra vērtība, varētu būt jebkāda cita.
+            const int MAX_STOCK_LIMIT = 100;
 
             if (productNumber < 0 || productNumber >= _products.Count)
             {
@@ -176,8 +175,6 @@ namespace VendingMachine
 
             return true;
         }
-
-
 
         public object GetProduct()
         {

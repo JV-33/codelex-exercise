@@ -1,5 +1,4 @@
-﻿using System;
-namespace ScooterRentalService
+﻿namespace ScooterRentalService
 {
 	public class DuplicateScooterException : Exception
 	{
@@ -8,4 +7,3 @@ namespace ScooterRentalService
 		}
 	}
 }
-

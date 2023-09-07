@@ -55,7 +55,6 @@ namespace VendingMachineTests
             vendingMachine.InsertCoin(coin);
         }
 
-
         [TestMethod]
         public void UpdateProduct_WithValidData_UpdatesProductSuccessfully()
         {
@@ -84,7 +83,6 @@ namespace VendingMachineTests
             var vendingMachine = new Vending_Machine("TestManufacturer");
             var result = vendingMachine.UpdateProduct(-1, "NewName", new Money { Euros = 2, Cents = 0 }, 10);
         }
-
 
         [TestMethod]
         public void UpdateProduct_OnlyName_UpdatesSuccessfully()

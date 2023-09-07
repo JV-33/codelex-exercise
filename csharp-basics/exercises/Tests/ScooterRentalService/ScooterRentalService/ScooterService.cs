@@ -11,6 +11,14 @@
 
         public void AddScooter(string id, decimal pricePerMinute)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                throw new ArgumentNullException(nameof(id), "Id cannot be null or empty.");
+            }
+            if (pricePerMinute <= 0)
+            {
+                throw new InvalidScooterPriceException("Price per minute cannot be negative or zero.");
+            }
             if (_scooters.Any(s => s.Id == id))
             {
                 throw new DuplicateScooterException();
@@ -18,7 +26,6 @@
 
             var scooter = new Scooter(id, pricePerMinute);
             _scooters.Add(scooter);
-
         }
 
         public Scooter GetScooterById(string scooterId)
@@ -31,7 +38,6 @@
             return scooter;
         }
 
-
         public IList<Scooter> GetScooters()
         {
             if (!_scooters.Any())
@@ -41,19 +47,15 @@
             return _scooters;
         }
 
-
         public void RemoveScooter(string id)
         {
             var scooter = GetScooterById(id);
-            if (scooter != null)
+            if (scooter.IsRented)
             {
-                _scooters.Remove(scooter);
+                throw new InvalidOperationException("Cannot remove a scooter that is currently being rented.");
             }
-            else
-            {
-                throw new ScooterNotFoundException(id);
-            }
-        }
 
+            _scooters.Remove(scooter);
+        }
     }
 }

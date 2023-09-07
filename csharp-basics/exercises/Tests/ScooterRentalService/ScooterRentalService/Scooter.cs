@@ -1,7 +1,5 @@
-﻿using System;
-namespace ScooterRentalService
+﻿namespace ScooterRentalService
 {
-
     public class Scooter
     {
         /// <summary>
@@ -30,4 +28,3 @@ namespace ScooterRentalService
         public bool IsRented { get; set; }
     }
 }
-

@@ -1,5 +1,4 @@
-﻿using System;
-namespace ScooterRentalService
+﻿namespace ScooterRentalService
 {
     public class RealTimeProvider : ITimeProvider
     {
@@ -10,6 +9,4 @@ namespace ScooterRentalService
     {
         public DateTime Now { get; set; }
     }
-
 }
-

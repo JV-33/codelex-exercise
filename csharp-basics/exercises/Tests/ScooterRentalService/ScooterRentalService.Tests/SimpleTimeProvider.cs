@@ -1,5 +1,4 @@
-﻿
-namespace ScooterRentalService.Tests
+﻿namespace ScooterRentalService.Tests
 {
     public class SimpleTimeProvider : ITimeProvider
     {

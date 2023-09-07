@@ -1,9 +1,12 @@
-﻿using System;
-namespace ScooterRentalService
+﻿namespace ScooterRentalService
 {
-	public interface ITimeProvider
-	{
+    public interface ITimeProvider
+    {
         DateTime Now { get; }
     }
-}
 
+    public class TimeProvider : ITimeProvider
+    {
+        public DateTime Now => DateTime.Now;
+    }
+}
