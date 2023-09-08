@@ -2,8 +2,7 @@
 
 	public class IncorrectFoodException : Exception
 	{
-    public IncorrectFoodException() : base("Incorrect food provided.")
-    {
+        public IncorrectFoodException() : base("Incorrect food provided.")
+        {
+        }
     }
-}
-

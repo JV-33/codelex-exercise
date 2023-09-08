@@ -42,22 +42,22 @@ namespace ScooterRentalService.Tests
         [TestMethod]
         public void GivenRentedScooter_WhenCalculatingIncomeAfterReturning_ThenReturnsCorrectIncome()
         {
-            var mockTimeProvider = new Mock<ITimeProvider>();
+            _mockTimeProvider = new Mock<ITimeProvider>();
             DateTime currentTime = DateTime.Now;
-            mockTimeProvider.Setup(m => m.Now).Returns(currentTime);
+            _mockTimeProvider.Setup(m => m.Now).Returns(currentTime);
 
             var scooterService = new Mock<IScooterService>();
             scooterService.Setup(x => x.GetScooterById(TestScooterId)).Returns(new Scooter(TestScooterId, 1.0m));
 
-            var rentalCompany = new RentalCompany("TestCompany", scooterService.Object, mockTimeProvider.Object);
+            _rentalCompany = new RentalCompany("TestCompany", scooterService.Object, _mockTimeProvider.Object);
 
-            rentalCompany.StartRent(TestScooterId);
+            _rentalCompany.StartRent(TestScooterId);
 
-            mockTimeProvider.Setup(m => m.Now).Returns(currentTime.AddMinutes(1));
+            _mockTimeProvider.Setup(m => m.Now).Returns(currentTime.AddMinutes(1));
 
-            rentalCompany.EndRent(TestScooterId);
+            _rentalCompany.EndRent(TestScooterId);
 
-            var income = rentalCompany.CalculateIncome(null, true);
+            var income = _rentalCompany.CalculateIncome(null, true);
             Assert.AreEqual(1.0m, income);
         }
 
