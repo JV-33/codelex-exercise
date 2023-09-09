@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRentalService", "ScooterRentalService\ScooterRentalService.csproj", "{B5BEC58D-BA56-44CA-B780-C31CBB506653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRentalService.Tests", "ScooterRentalService.Tests\ScooterRentalService.Tests.csproj", "{0BACC3AA-EDCD-439B-AC12-AFD335C1A1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy", "Hierarchy\Hierarchy.csproj", "{EF08EDFB-41E7-487B-BB70-ED40C454B6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy.Test", "hierarchy.Test\Hierarchy.Test.csproj", "{B0DB6200-5CBE-43A4-9793-A5B081251B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine", "VendingMachine\VendingMachine.csproj", "{5C795D90-DE7E-4A93-9539-E8A4C235BE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.Test", "Vending MachineTest\VendingMachine.Test.csproj", "{86268638-EA3F-4173-B682-B3272CE6E907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5BEC58D-BA56-44CA-B780-C31CBB506653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BEC58D-BA56-44CA-B780-C31CBB506653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BEC58D-BA56-44CA-B780-C31CBB506653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BEC58D-BA56-44CA-B780-C31CBB506653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BACC3AA-EDCD-439B-AC12-AFD335C1A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BACC3AA-EDCD-439B-AC12-AFD335C1A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BACC3AA-EDCD-439B-AC12-AFD335C1A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BACC3AA-EDCD-439B-AC12-AFD335C1A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF08EDFB-41E7-487B-BB70-ED40C454B6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF08EDFB-41E7-487B-BB70-ED40C454B6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF08EDFB-41E7-487B-BB70-ED40C454B6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF08EDFB-41E7-487B-BB70-ED40C454B6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DB6200-5CBE-43A4-9793-A5B081251B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DB6200-5CBE-43A4-9793-A5B081251B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DB6200-5CBE-43A4-9793-A5B081251B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DB6200-5CBE-43A4-9793-A5B081251B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C795D90-DE7E-4A93-9539-E8A4C235BE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C795D90-DE7E-4A93-9539-E8A4C235BE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C795D90-DE7E-4A93-9539-E8A4C235BE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C795D90-DE7E-4A93-9539-E8A4C235BE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86268638-EA3F-4173-B682-B3272CE6E907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86268638-EA3F-4173-B682-B3272CE6E907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86268638-EA3F-4173-B682-B3272CE6E907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86268638-EA3F-4173-B682-B3272CE6E907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E52724F-3212-4491-BCBE-46BC21CE906D}
+	EndGlobalSection
+EndGlobal
